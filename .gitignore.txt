@@ -12,6 +12,10 @@ build
 
 eggs/
 
+.eggs/
+
+develop-eggs/
+
 mypythonlib.egg-info
 
 .pytest_cache
