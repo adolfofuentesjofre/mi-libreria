@@ -1,0 +1,1 @@
+from .mypythonlib import lib_clase
