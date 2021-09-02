@@ -1,1 +1,1 @@
-from .mypythonlib import lib_clase
+from .myfunction import lib_clase
