@@ -1,0 +1,9 @@
+pymeeus<=1,>=0.3.13
+pytz>=2014.10
+
+[docs]
+sphinx
+sphinx-rtd-theme
+
+[test]
+coverage

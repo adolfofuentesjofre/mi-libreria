@@ -1,0 +1,10 @@
+{"server_crm": "172.26.10.15", 
+"db_crm": "IMC_RPT", 
+"username_crm": "usr_python", 
+"password_crm": "Sx!ZPN-9", 
+"driver_crm":"{ODBC Driver 17 for SQL Server}", 
+"server_imercado": "172.26.10.15", 
+"db_imercado": "imercado", 
+"username_imercado": "usr_python", 
+"password_imercado": "Sx!ZPN-9", 
+"driver_imercado":"{ODBC Driver 17 for SQL Server}"}
