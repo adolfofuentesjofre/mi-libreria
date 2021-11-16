@@ -158,61 +158,7 @@ class lib_clase:
         return df
     
     @staticmethod
-    def edad_rango_vectorcliente(df, col_edad ="edad1", col_target = 'RNG' ):    
-        """Dado un dataframe con una columna de edades, esta funcion las agrupa en segmentos de 5 años.
-
-        Args:
-            df: dataframe
-            col_edad: nombre de la columna con la edad
-            col_target: nombre de la nueva columna con segmentos de edades
-
-        Returns:
-            Crea una nueva columna en el dataframe
-        """
-
-
-        idx1825 =  df[col_edad] < 25
-        idx2530 = (df[col_edad] >= 25) & (df[col_edad] < 30)
-        idx3035 = (df[col_edad] >= 30) & (df[col_edad] < 35)
-        idx3540 = (df[col_edad] >= 35) & (df[col_edad] < 40)
-        idx4045 = (df[col_edad] >= 40) & (df[col_edad] < 45)
-        idx4550 = (df[col_edad] >= 45) & (df[col_edad] < 50)
-        idx5055 = (df[col_edad] >= 50) & (df[col_edad] < 55)
-        idx5560 = (df[col_edad] >= 55) & (df[col_edad] < 60)
-        idx6065 = (df[col_edad] >= 60) & (df[col_edad] < 65)
-        idx6570 = (df[col_edad] >= 65) & (df[col_edad] < 70)
-        idx7075 = (df[col_edad] >= 70) & (df[col_edad] < 75)
-        idx7580 = (df[col_edad] >= 75) & (df[col_edad] < 80)
-        idx8085 = (df[col_edad] >= 80) & (df[col_edad] < 85)
-        idx8590 = (df[col_edad] >= 85) & (df[col_edad] < 90)
-        idx9095 = (df[col_edad] >= 90) & (df[col_edad] < 95)
-        idx95100 = (df[col_edad] >= 95) & (df[col_edad] <= 100)
-        idx100 = df[col_edad] > 100
         
-        df[col_target] = ["sin_edad"]*len(df)
-        df.loc[idx1825,col_target] = "18_24"
-        df.loc[idx2530,col_target] = "25_29"
-        df.loc[idx3035,col_target] = "30_34"
-        df.loc[idx3540,col_target] = "35_39"
-        df.loc[idx4045,col_target] = "40_44"
-        df.loc[idx4550,col_target] = "45_49"
-        df.loc[idx5055,col_target] = "50_54"
-        df.loc[idx5560,col_target] = "55_59"
-        df.loc[idx6065,col_target] = "60_64"
-        df.loc[idx6570,col_target] = "65_69"
-        df.loc[idx7075,col_target] = "70_74"
-        df.loc[idx7580,col_target] = "75_79"
-        df.loc[idx8085,col_target] = "80_84"
-        df.loc[idx8590,col_target] = "85_89"
-        df.loc[idx9095,col_target] = "90_94"
-        df.loc[idx95100,col_target] = "95_100"
-        df.loc[idx100,col_target] = "sobre_100"
-    
-        return df
-        
-        
-         #Funcion para corregir fechas de cuarentena
-    @staticmethod
     def correct_cuarentena(fecha_ano_anterior, fecha_hoy):
         """"
         Funcion para corregir fechas tomando en cuenta las dos cuarentenas

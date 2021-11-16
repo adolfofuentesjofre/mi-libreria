@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name='mypythonlib', # nombre de la libreria
     packages=find_packages(include=['mypythonlib']), # carpeta donde buscar la libreria
-    version='0.1.0',
+    version='0.3.0',
     description='Mi libreria',
     author='Adolfo',
     install_requires=[
