@@ -7,4 +7,14 @@
 "db_imercado": "imercado", 
 "username_imercado": "usr_python", 
 "password_imercado": "Sx!ZPN-9", 
-"driver_imercado":"{ODBC Driver 17 for SQL Server}"}
+"driver_imercado":"{ODBC Driver 17 for SQL Server}",
+"server_az": "enjoysqlserver.database.windows.net", 
+"db_az": "enjoydw", 
+"username_az": "Adolfo.Fuentes", 
+"password_az": "WqyAzw{310", 
+"driver_az": "{ODBC Driver 17 for SQL Server}", 
+"server_az_sb": "enjoysqlserver.database.windows.net", 
+"db_az_sb": "sandboxOperacional", 
+"username_az_sb": "Adolfo.Fuentes", 
+"password_az_sb": "WqyAzw{310", 
+"driver_az_sb": "{ODBC Driver 17 for SQL Server}"}
