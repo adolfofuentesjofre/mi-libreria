@@ -17,9 +17,6 @@ from modelosenjoy import modelosenjoy_clase
 # LLamar a la funcion "feriados" y verificar si una fecha es un feriado en Chile
 modelosenjoy_clase().feriado('2020-01-01')
 
-# Correr el modelo Vendetta
-modelosenjoy_clase().modeloVendetta()
-
 # Hacer un SQL query
 modelosenjoy_clase().sql_imercado("select top 10 * from <nombre de tabla>")
 
@@ -50,14 +47,6 @@ La clase modelosenjoy_clase tiene los siguientes metodos:
 - edad_rango_vectorcliente
 - feriado
 - feriados_Chile
-- modeloCLTV
-- modeloFuga
-- modeloReinversion
-- modeloSilverGold
-- modeloVendetta
-- percentile
-- probandoMultiprocess
-- resumenModelos
 - sql_imercado
 - sql_azure
 - sql_azuresandbox

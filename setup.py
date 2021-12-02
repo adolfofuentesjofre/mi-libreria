@@ -15,10 +15,10 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 setup(
     name='mypythonlib', # nombre de la libreria
     packages=find_packages(include=['mypythonlib']), # carpeta donde buscar la libreria
-    version='0.4.3',
+    version='0.4.8',
     description='Mi libreria',
     long_description_content_type='text/markdown',
-    author='Adolfo',
+    author='Francisco & Adolfo',
     install_requires=[
         'pandas>=1.3.2',
         'numpy>=1.21',

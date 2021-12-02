@@ -1,30 +1,53 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
 
-*.pyc
-
+# C extensions
+*.so
+# Distribution / packaging
+bin/
 build/
-
-build
-
-/build
-
-**/build
-
-eggs/
-
-.eggs/
-
 develop-eggs/
-
-mypythonlib.egg-info
-
-.pytest_cache
-
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 *.egg-info/
-
-*.egg-info
-
+.installed.cfg
 *.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+#Files
+env_dictio
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
